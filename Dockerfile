@@ -7,10 +7,12 @@ COPY . .
 RUN apt-get install maven -y
 RUN mvn clean install 
 
+RUN ls -al /target  # Para verificar se o arquivo .jar está lá
+
 FROM openjdk:21-jdk-slim
 
 EXPOSE 8080
 
-COPY --from=build /target/deploy_render-1.0.0.jar app.jar
+COPY --from=build /target/API-0.0.1-SNAPSHOT.jar app.jar
 
 ENTRYPOINT [ "java", "-jar", "app.jar" ]

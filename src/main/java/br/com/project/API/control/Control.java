@@ -16,7 +16,7 @@ import br.com.project.API.model.Client;
 import br.com.project.API.repository.Repository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://kayquemts.github.io")
 public class Control {
 	
 	@Autowired

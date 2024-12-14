@@ -18,8 +18,15 @@
 
 ---
 
-## Live Demo
-The application is already up and running! 🚀  
-Check it out here: [MyApp Live Demo](https://kayquemts.github.io/API-Front/)
+## Project Status
 
-> **Note:** The backend is hosted on a free-tier plan, so the connection may take up to **7 minutes** to initialize. Thank you for your patience! 🙏
+⚠️ **This project has been deactivated.**  
+The backend was hosted using a free-tier plan, which is no longer available. Thank you for your interest and support!
+
+---
+
+## Live Demo
+
+The application is no longer live as the backend has been deactivated. However, the frontend is still available:  
+[MyApp Live Demo](https://kayquemts.github.io/API-Front/)
+
